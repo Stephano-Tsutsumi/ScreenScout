@@ -27,7 +27,7 @@ const Collaboration = () => {
             ))}
           </ul>
 
-          <Button href="https://airtable.com/appxgh06clCE26z1H/shrySLs15u1uBwOQT">
+          <Button href="https://calendly.com/stephano-tsutsumi/30min">
             Try it now
           </Button>
         </div>
