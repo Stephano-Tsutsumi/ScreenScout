@@ -8,6 +8,7 @@ import Pricing from "./components/Pricing";
 import Roadmap from "./components/Roadmap";
 import Services from "./components/Services";
 import DemoSection from "./components/DemoSection";
+import { Analytics } from "@vercel/analytics/react";
 
 const App = () => {
   return (
@@ -24,9 +25,7 @@ const App = () => {
         <ButtonGradient />
         <Footer />
       </div>
-
-     
-      
+      <Analytics />
     </>
   );
 };
