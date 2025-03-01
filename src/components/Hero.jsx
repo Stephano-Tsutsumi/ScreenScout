@@ -56,7 +56,8 @@ const Hero = () => {
                   playsInline
                   className="w-full scale-[0.95] translate-y-[3%] md:scale-[0.82] md:-translate-y-[3%] lg:scale-[0.75] lg:-translate-y-[12%]"
                 >
-                  <source src="src/assets/ScreenScout Website Demo.mov" type="video/mp4" />
+                  <source src="public/ScreenScout Website Demo.mov" type="video/mp4" />
+                  <source src="public/ScreenScout Website Demo.mov" type="video/webm" />
                   Your browser does not support the video tag.
                 </video>
 
