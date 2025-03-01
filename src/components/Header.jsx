@@ -6,7 +6,7 @@ import Button from "./Button";
 import MenuSvg from "../assets/svg/MenuSvg";
 import { HamburgerMenu } from "./design/Header";
 import { useState } from "react";
-import screenscoutLogo from "../assets/screenscout1.png";
+import { screenscoutLogo } from "../assets";
 
 const Header = () => {
   const pathname = useLocation();

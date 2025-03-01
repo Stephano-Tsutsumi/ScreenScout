@@ -49,17 +49,13 @@ const Hero = () => {
               <div className="h-[1.4rem] bg-n-10 rounded-t-[0.9rem]" />
 
               <div className="aspect-[33/40] rounded-b-[0.9rem] overflow-hidden md:aspect-[688/490] lg:aspect-[1024/490]">
-                <video
-                  autoPlay
-                  loop
-                  muted
-                  playsInline
-                  className="w-full scale-[0.95] translate-y-[3%] md:scale-[0.82] md:-translate-y-[3%] lg:scale-[0.75] lg:-translate-y-[12%]"
-                >
-                  <source src="public/ScreenScout Website Demo.mov" type="video/mp4" />
-                  <source src="public/ScreenScout Website Demo.mov" type="video/webm" />
-                  Your browser does not support the video tag.
-                </video>
+                <img
+                  src={robot}
+                  className="w-full scale-[1.7] translate-y-[8%] md:scale-[1] md:-translate-y-[10%] lg:-translate-y-[23%]"
+                  width={1024}
+                  height={490}
+                  alt="AI"
+                />
 
                 <Generating className="absolute left-4 right-4 bottom-5 md:left-1/2 md:right-auto md:bottom-8 md:w-[31rem] md:-translate-x-1/2" />
 
@@ -84,10 +80,10 @@ const Hero = () => {
 
             <Gradient />
           </div>
-          <div className="absolute -top-[40%] left-1/2 w-[200%] -translate-x-1/2 md:-top-[35%] md:w-[120%] lg:-top-[85%]">
+          <div className="absolute -top-[54%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top-[104%]">
             <img
               src={heroBackground}
-              className="w-full opacity-80"
+              className="w-full"
               width={1440}
               height={1800}
               alt="hero"
